@@ -18,6 +18,7 @@ main{
   gap: 10px;
   width: 50%;
   margin: auto;
+  max-width: 1440px;
 }
 main div{
   padding: 2em;
@@ -46,4 +47,13 @@ main div{
 .item-e{
   background-color: #24b2a8;
   grid-area: e;
+}
+
+@media screen and(min-width: 375px){
+  body{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
 }
